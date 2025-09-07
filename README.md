@@ -25,6 +25,7 @@ myapp/
 ├─ node_modules/
 ├─ .env
 ├─ .env.development
+├─ .env.development.local (optional for local overrides in development only )
 ├─ .env.test
 ├─ .env.production
 ├─ ecosystem.config.js
@@ -52,6 +53,13 @@ ADMIN_PW=dev1234
 ```
 
 > `dotenv-flow` automatically loads the correct `.env.*` file based on `NODE_ENV`.
+
+If you need local overrides for development, create `.env.development.local` (this file is ignored by git).
+
+```env
+BINGO=are you from around these parts?
+
+```
 
 ---
 

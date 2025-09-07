@@ -24,5 +24,6 @@
   "devDependencies": {
     "jest": "^29.0.0",
     "supertest": "^6.3.0"
-  }
+  },
+  "repository": "https://github.com/dickiedyce/pm2-instances-example.git"
 }
